@@ -50,9 +50,6 @@
   color: #fff;
   align-items: flex-start;
   height: 550px;
-  .tab {
-    background-color: yellow;
-  }
 
   @include xl {
     color: $secondary;
