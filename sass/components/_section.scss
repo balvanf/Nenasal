@@ -46,10 +46,13 @@
 }
 
 .section-2 {
-  @include section(url("../img/backgrounds/Mask Group 7.png"));
+  @include section(url("img/backgrounds/Mask Group 7.png"));
   color: #fff;
   align-items: flex-start;
   height: 550px;
+  .tab {
+    background-color: yellow;
+  }
 
   @include xl {
     color: $secondary;
@@ -69,7 +72,7 @@
   @include section(rgb(224, 207, 195));
 
   @include md {
-    background-image: url("../img/backgrounds/Mask Group 8.png");
+    background-image: url("img/backgrounds/Mask Group 8.png");
     background-size: auto;
     div {
       flex-direction: row;
@@ -78,7 +81,7 @@
   }
 
   @include lg {
-    background-image: url("../img/backgrounds/Mask Group 13.png");
+    background-image: url("img/backgrounds/Mask Group 13.png");
     background-size: cover;
     justify-content: flex-end;
   }
