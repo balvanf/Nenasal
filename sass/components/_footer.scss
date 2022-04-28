@@ -1,0 +1,16 @@
+@use "sass:math";
+
+.footer {
+  @extend %flex-layout;
+  padding: $base-padding $base-padding * 3;
+  background: $dark-bg;
+  width: 100%;
+
+  @include lg {
+    padding-left: $base-padding * 4;
+  }
+
+  @include xl {
+    padding: $base-padding * 3 $base-padding * 12;
+  }
+}

@@ -1,0 +1,132 @@
+@mixin section($bg: $light-bg) {
+  @extend %flex-layout;
+  padding: $base-padding * 3;
+  background: $bg;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+
+  @include lg {
+    padding: $base-padding * 4;
+  }
+
+  @include xl {
+    padding: $base-padding * 4 $base-padding * 12;
+  }
+}
+
+.section-1 {
+  @include section();
+  padding-top: 250px;
+  .thumb {
+    width: 6rem;
+  }
+
+  @include md {
+    .thumb {
+      width: 10rem;
+    }
+  }
+
+  @include lg {
+    background: linear-gradient(to right, $dark-bg 30%, $light-bg 30%);
+    padding-top: 150px;
+    flex-direction: row;
+
+    .social {
+      flex-direction: column;
+    }
+  }
+
+  @include md {
+    .thumb {
+      width: 6rem;
+    }
+  }
+}
+
+.section-2 {
+  @include section(url("../img/backgrounds/Mask Group 7.png"));
+  color: #fff;
+  align-items: flex-start;
+  height: 550px;
+
+  @include xl {
+    color: $secondary;
+    
+    .tabs {
+      font-size: $font-size-lg;
+    }
+    height: 885px;
+   
+    > div {
+      margin-top: 250px;
+    }
+  }
+}
+
+.section-3 {
+  @include section(rgb(224, 207, 195));
+
+  @include md {
+    background-image: url("../img/backgrounds/Mask Group 8.png");
+    background-size: auto;
+    div {
+      flex-direction: row;
+      justify-content: flex-start;
+    }
+  }
+
+  @include lg {
+    background-image: url("../img/backgrounds/Mask Group 13.png");
+    background-size: cover;
+    justify-content: flex-end;
+  }
+
+  @include xl {
+    height: 885px;
+  }
+}
+
+.section-4 {
+  @include section($light-bg);
+
+  @include xl {
+    .items {
+      * {
+        align-items: center;
+      }
+
+      p {
+        font-size: $font-size-xl;
+        margin-bottom: 1rem;
+      }
+
+      .text-accent {
+        font-size: $font-size-xxl;
+      }
+    }
+  }
+}
+
+.section-5 {
+  @include section($dark-bg);
+}
+
+.section-6 {
+  @include section($light-bg);
+
+  > div {
+    margin-top: 1rem;
+  }
+  > div:not(:last-child) {
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid $dark-bg;
+  }
+
+  @include xl {
+    > div:not(:last-child) {
+      border: none;
+    } 
+  }
+}

@@ -1,0 +1,23 @@
+@use 'sass:math';
+
+%button {
+  padding: 1rem 5rem;
+  border: none;
+  font-weight: $font-weight-bold;
+  box-shadow: $base-box-shadow;
+  border-radius: math.div($base-border-radius, 2);
+  &:hover { 
+    cursor: pointer;
+  } 
+  text-align: center;
+}
+
+.btn {
+  @extend %button;
+}
+
+.btn-transparent {
+  @extend %button;
+  border: 2px solid $accent;
+  padding: 1rem 2rem;
+}
