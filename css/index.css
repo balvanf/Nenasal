@@ -839,9 +839,6 @@ form textarea {
     padding: 3rem 9rem;
   }
 }
-.section-2 .tab {
-  background-color: yellow;
-}
 @media (min-width: 1285px) {
   .section-2 {
     color: #656565;
