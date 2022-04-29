@@ -5,6 +5,9 @@
   background-size: cover;
   background-position: center;
   width: 100%;
+  > div * {
+    margin-bottom: 1rem;
+  }
 
   @include lg {
     padding: $base-padding * 4;
@@ -127,7 +130,9 @@
     border-bottom: 2px solid $dark-bg;
   }
 
-  @include xl {
+  @include lg {
+    align-items: flex-start;
+
     > div:not(:last-child) {
       border: none;
     } 

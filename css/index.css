@@ -785,6 +785,9 @@ form textarea {
   width: 100%;
   padding-top: 250px;
 }
+.section-1 > div * {
+  margin-bottom: 1rem;
+}
 @media (min-width: 1081px) {
   .section-1 {
     padding: 3rem;
@@ -829,6 +832,9 @@ form textarea {
   align-items: flex-start;
   height: 550px;
 }
+.section-2 > div * {
+  margin-bottom: 1rem;
+}
 @media (min-width: 1081px) {
   .section-2 {
     padding: 3rem;
@@ -861,6 +867,9 @@ form textarea {
   background-size: cover;
   background-position: center;
   width: 100%;
+}
+.section-3 > div * {
+  margin-bottom: 1rem;
 }
 @media (min-width: 1081px) {
   .section-3 {
@@ -898,6 +907,9 @@ form textarea {
   background-position: center;
   width: 100%;
 }
+.section-4 > div * {
+  margin-bottom: 1rem;
+}
 @media (min-width: 1081px) {
   .section-4 {
     padding: 3rem;
@@ -928,6 +940,9 @@ form textarea {
   background-position: center;
   width: 100%;
 }
+.section-5 > div * {
+  margin-bottom: 1rem;
+}
 @media (min-width: 1081px) {
   .section-5 {
     padding: 3rem;
@@ -946,6 +961,9 @@ form textarea {
   background-position: center;
   width: 100%;
 }
+.section-6 > div * {
+  margin-bottom: 1rem;
+}
 @media (min-width: 1081px) {
   .section-6 {
     padding: 3rem;
@@ -963,7 +981,10 @@ form textarea {
   padding-bottom: 0.5rem;
   border-bottom: 2px solid #DFE3EB;
 }
-@media (min-width: 1285px) {
+@media (min-width: 1081px) {
+  .section-6 {
+    align-items: flex-start;
+  }
   .section-6 > div:not(:last-child) {
     border: none;
   }
