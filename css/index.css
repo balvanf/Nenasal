@@ -839,6 +839,9 @@ form textarea {
     padding: 3rem 9rem;
   }
 }
+.section-2 .nav-tab:hover {
+  cursor: pointer;
+}
 @media (min-width: 1285px) {
   .section-2 {
     color: #656565;
