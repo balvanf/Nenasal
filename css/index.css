@@ -821,7 +821,7 @@ form textarea {
 
 .section-2 {
   padding: 2.25rem;
-  background: url("../img/backgrounds/Mask Group 7.png");
+  background: url("../img/backgrounds/mask_group_7.png");
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -871,7 +871,7 @@ form textarea {
 }
 @media (min-width: 700px) {
   .section-3 {
-    background-image: url("../img/backgrounds/Mask Group 8.png");
+    background-image: url("../img/backgrounds/mask_group_8.png");
     background-size: auto;
   }
   .section-3 div {
@@ -881,7 +881,7 @@ form textarea {
 }
 @media (min-width: 1081px) {
   .section-3 {
-    background-image: url("../img/backgrounds/Mask Group 13.png");
+    background-image: url("../img/backgrounds/mask_group_13.png");
     background-size: cover;
     justify-content: flex-end;
   }
