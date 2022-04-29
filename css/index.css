@@ -36,10 +36,6 @@ img {
   cursor: pointer;
 }
 
-.selected {
-  border-bottom: 5px solid #FF9300;
-}
-
 textarea {
   resize: none;
 }
@@ -845,7 +841,16 @@ form textarea {
     padding: 3rem 9rem;
   }
 }
-.section-2 .nav-tab:hover {
+.section-2 .selected {
+  border-bottom: 5px solid #FF9300;
+}
+.section-2 .tabs {
+  border-bottom: 1px solid #656565;
+}
+.section-2 .tabs * {
+  margin-bottom: 0;
+}
+.section-2 .tabs p:hover {
   cursor: pointer;
 }
 @media (min-width: 1285px) {

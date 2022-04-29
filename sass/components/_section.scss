@@ -25,6 +25,7 @@
     width: 6rem;
   }
 
+
   @include md {
     .thumb {
       width: 10rem;
@@ -53,12 +54,28 @@
   color: #fff;
   align-items: flex-start;
   height: 550px;
-  .nav-tab {
-    &:hover {
-      cursor: pointer;
+  .selected {
+    border-bottom: 5px solid $accent;
+  }
+  
+  .tabs {
+
+    * {
+      margin-bottom: 0;
+    } 
+
+    border-bottom: 1px solid $secondary;
+
+    p {
+    
+      &:hover {
+        cursor: pointer;
+        
+      }
+
     }
   }
-
+  
   @include xl {
     color: $secondary;
     

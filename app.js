@@ -25,7 +25,7 @@ minus.addEventListener('click', function() {
   counter.innerText = count
 })
 
-// Mijenjanje tabova na drugoj sekciji (Opis, specifikacije, ostalo)
+// Mijenjanje tabova na sekciji 2 (Opis, specifikacije, ostalo)
 
 document.querySelectorAll(".nav-tab").forEach(item => {
   item.addEventListener('click', function() {
