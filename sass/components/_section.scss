@@ -69,8 +69,6 @@
   @include section(rgb(224, 207, 195));
 
   @include md {
-    background-image: url("../img/backgrounds/mask_group_8.png");
-    background-size: auto;
     div {
       flex-direction: row;
       justify-content: flex-start;

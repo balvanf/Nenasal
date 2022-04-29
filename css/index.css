@@ -870,10 +870,6 @@ form textarea {
   }
 }
 @media (min-width: 700px) {
-  .section-3 {
-    background-image: url("../img/backgrounds/mask_group_8.png");
-    background-size: auto;
-  }
   .section-3 div {
     flex-direction: row;
     justify-content: flex-start;
